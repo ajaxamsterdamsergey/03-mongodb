@@ -1,0 +1,35 @@
+{
+  "name": "03-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajaxamsterdamsergey/03-mongodb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajaxamsterdamsergey/03-mongodb/issues"
+  },
+  "homepage": "https://github.com/ajaxamsterdamsergey/03-mongodb#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "joi": "^14.3.1",
+    "joi-objectid": "^3.0.1",
+    "mongodb": "^3.5.8",
+    "mongoose": "^5.9.16",
+    "path": "^0.12.7",
+    "uuid": "^8.1.0"
+  },
+  "devDependencies": {}
+}
